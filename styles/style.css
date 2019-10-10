@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'segoe-ui';
+    src: url('../Fonts/segoeui.ttf');
+}
+@font-face {
+    font-family: 'segoe-uil';
+    src: url('../Fonts/segoeuil.ttf');
+}
+@font-face {
+    font-family: 'seguisb';
+    src : url('../Fonts/seguisb.ttf')
+}
+
+/* ENTETE */
+
+header{
+    background-image: url(/images/ble.png);
+    width: 100%;
+    height: 800px;
+}
+
+.navbar{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 150px;
+}
+
+ul li{
+    list-style-type: none;
+    display:inline-block;
+}
+
+.logo{
+    float: left;
+    margin-left: 300px;
+    margin-top : 50px;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 260px;
+    font-family: 'segoe-ui';
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding : 10px 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    color : #f1f2f2;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight : bold;
+}
+
+.bordure{
+    color : rgb(75,202,255);
+    border : 2px solid;
+}
+
+.hero{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    padding : 240px;
+
+}
+
+.hero p{
+    padding: 5px;
+    font-family: 'segoe-uil';
+    color: #f1f2f2;
+    width: auto;
+    font-weight: lighter;
+   
+}
+
+span{
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* SERVICES */
+
+.services{
+    background-color: rgb(75,202,255);
+    padding: 65px 300px 65px 300px;
+
+}
+.titre1{
+    color: #f1f2f2;
+    font-family: 'segoe-uil';
+    padding-bottom: 30px;
+}
+.souligne1{
+    border-bottom: 2px solid #f1f2f2;
+    background: none;
+}
+.detail-services{
+    display: flex;
+    list-style-type: none;
+    color: #f1f2f2;
+    font-family: 'segoe-ui';
+}
+.entete{
+    margin: 10px 0px;
+    font-weight: 'seguisb';
+    font-size: 20px;
+}
+
+.instant, .serious, .frame{
+    padding-left: 20px;
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    width :100%;
+    height: 150px;
+}
+.titre2{
+    color:#515f67;
+    font-family: 'segoe-uil';
+    float: left;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.souligne2{
+    border-bottom: 2px solid #515f67;
+    background: none;
+}
+.portfolio ul{
+    list-style-type: none;
+    margin-right: 200px;
+}
+.navbar2 ul li{
+    text-decoration: none;
+    padding : 10px 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight : bold;
+}
+.navbar2{
+    width: 100%;
+    height: 150px;
+}
+.images{
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 200px;
+
+}
+.images img{
+    padding-bottom: 50px;
+    padding-right: 60px;
+}
+
+/* SECTION */
+
+.section{
+    background-color:#515f67;
+    padding: 65px 300px 65px 300px;
+}
+.contenu{
+    color: #f1f2f2;
+    font-family: 'segoe-ui';
+}
+.contenu p{
+    margin-right: 100px;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-bottom: 24px;
+    display: inline-block;
+    font-size: 14px;
+}
+.container{
+    display: flex;
+}
+.contenu p.visit{
+    color: black;
+    border : 2px solid black;
+    padding: 15px 50px 15px 50px;
+    font-weight: 'seguisb'
+}
+
+/* TWITTER */
+
+.twitter{
+    background-color:rgb(75,202,255);
+    padding: 80px 300px 80px 300px;
+}
+.titre1 img{
+    float: right;
+    margin-top: -25px;
+}
+.twitter p{
+    color: #f1f2f2;
+    font-family: 'segoe-uil';
+    font-size: 40px;
+}
+.twitter span{
+    font-weight: bold;
+    background-color: transparent;
+    text-align: justify
+}
+
+/* WHOIS */
+
+.whois{
+    background-image: url(/images/photographe.png);
+    width: 100%;
+    height: 505px;
+    color: #f1f2f2;
+    font-family: 'segoe-uil';
+}
+.titre3{
+    padding-left: 300px;
+    padding-top: 100px;
+}
+.premierpara{
+    padding-bottom: 30px
+}
+
+.section2{
+    display: flex;
+    padding: 65px 300px 65px 300px;
+    font-family: 'segoe-uil';
+}
+.section2 .paragraph{
+    margin-right: 100px;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-bottom: 24px;
+    display: inline-block;
+}
+
+/* TESTIMONIALS */
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 360px;
+}
+.entete2{
+    color: #f1f2f2;
+    font-family: 'segoe-uil';
+    
+}
+.entete2 img{
+    float: right;
+    margin-top: 40px;
+    padding-right: 300px;
+}
+.texte{
+    padding: 42px 300px 80px 300px;
+    font-family:'segoe-uil'
+}
+.paragraph1{
+    font-size: 35px;
+}
+.walter{
+    padding-top: 20px;
+    color: rgb(75,202,255);
+    font-weight: 800
+}
+
+/* CONTACT */
+.contact{
+    background-image: url(/images/focus.png);
+    background-size: cover;
+}
+.contact h2, .contact p, .contact li{
+    color: white;
+}
+.contact li{
+    display: block;
+}
+.centrage{
+    width: 1300px;
+    margin: 0 auto;
+    color: #515f67;
+    font-family: 'segoe-uil';
+
+}
+.contact .centrage h2{
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.colonnes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gauche, .droite{
+    width: 50%;
+}
+input, textarea{
+    background-color: transparent;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border: solid 1px white;
+    margin-bottom: 20px;
+}
+textarea{
+    width: 100%;
+    border: solid 1px white;
+    margin-bottom: 20px;
+}
+.contact .centrage{
+    padding: 50px 0;
+    
+}
+input[type="submit"]{
+    color: #f1f2f2;
+    background-color: rgb(75,202,255);
+    border: solid 1px rgb(75,202,255);
+    width: 300px;
+    text-transform: uppercase;
+}
+.droite p{
+    margin-bottom: 20px;
+}
+/* FOOTER */
+
+footer{
+    background-color: rgba(53,63,71)
+}
+.bottombar{
+    
+    width: 100%;
+    height: 150px;
+}
+.bottombar p{
+    
+    font-family: 'segoe-ui';
+    display: inline-block;
+    margin-top: 80px;
+
+}
+footer .centrage{
+    color: rgb(75,88,96);
+
+}
+.bottombar p:last-child {
+    float: right;
+}
